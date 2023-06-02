@@ -13,7 +13,6 @@ public class Card implements Comparable<Card>{
     }
     @Override
     public String toString() {
-        // TODO: sort suits by order of superiority
         char[] suits = {'\u2660','\u2663','\u2764','\u2666'}; // {spade, club, heart, diamond}
         char[] special_ranks = {'J','Q','K','A'};
 
